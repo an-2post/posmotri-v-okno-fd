@@ -252,12 +252,6 @@ ol {
   position: relative;
 }
 
-.content__list {
-  /* display: flex;
-  flex-direction: column;
-  gap: 30px; */
-}
-
 .content__list-item {
   display: block;
   margin-bottom: 30px;
@@ -305,6 +299,7 @@ ol {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
+  line-clamp: 1;
 }
 
 .content__video-card-thumbnail {
